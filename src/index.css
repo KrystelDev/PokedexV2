@@ -38,15 +38,76 @@ a > img {
   width: -webkit-fill-available;
 }
 
-/* ALL PAGE */
-aside {
-  margin-left: 150px;
-}
-
 /* POKELIST */
 .list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  border: grey dashed;
+}
+
+/* ALL PAGE */
+.screen {
+  margin: 2vh 2vw 2vh 20vw;
+  border: 2rem solid white;
+  border-radius: 20%;
+  background: rgba(76, 175, 80, 0.6);
+  max-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  overflow-y: scroll;
+}
+.center {
+  padding: 2rem;
+}
+
+.center > img {
+  width: 10rem;
+}
+.flex {
+  display: flex;
+}
+
+/* SELECTED POKEMON */
+.name {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-size: xxx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.images {
+  display: flex !important;
+  justify-content: center;
+}
+.imgFront {
+  display: flex;
+  width: 100%;
+  max-width: 285px;
+}
+.imgFront > img {
+  margin: -1rem;
+  align-self: center;
+  width: 20rem;
+}
+
+.imgOther {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  display: flex;
+  justify-content: space-around;
+}
+
+table sup {
+  padding: 0 0.5rem;
+  font-size: inherit;
 }

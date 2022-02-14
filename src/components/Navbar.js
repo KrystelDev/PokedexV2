@@ -14,7 +14,7 @@ const Navbar = () => {
         <img src={pokeList} />
         POKELIST
       </Link>
-      <Link to="/">
+      <Link to="/LookFor...">
         <img src={lookFor} />
         LOOK FOR...
       </Link>
